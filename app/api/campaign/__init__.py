@@ -1,5 +1,5 @@
 from flask import Blueprint
 
-campaign = Blueprint('campaign', __name__)
+campaignAPI = Blueprint('campaign', __name__)
 
 from . import views
